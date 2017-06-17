@@ -1,0 +1,50 @@
+:root {
+	--primary-color: #1DE9B6;
+}
+
+html, body {
+	display: flex;
+	flex-direction: column;
+	margin: 0px;
+	height: 100%;
+	width: 100%;
+	font-family: "Arial";
+	color: rgba(0, 0, 0, .7);
+}
+
+
+header {
+	background-color: #ccc;
+	flex-direction: row;
+	flex: 0 0 20pt;
+	display: flex;
+	padding: 3pt;
+}
+main {
+	flex: 2;
+	overflow: scroll;
+	background-color: #eee;
+	position: relative;
+	display: block;
+}
+
+.citely-object {
+	border-radius: 12pt;
+	display: block;
+	background-color: white;
+	box-shadow: 0pt 0pt 28pt rgba(0, 0, 0, 0.1), inset 0pt 0pt 13pt rgba(255, 255, 255, 1);
+	width: auto;
+	overflow: hidden;
+	height: auto;
+	position: absolute;
+}
+.citely-object .citely-object-content {
+
+	padding: 12pt 28pt;
+}
+.citely-object-header {
+	padding: 8pt 28pt;
+	color: white;
+	background-color: var(--primary-color);
+	box-shadow:inset 0pt 16pt 0pt rgba(255, 255, 255, .2);
+}

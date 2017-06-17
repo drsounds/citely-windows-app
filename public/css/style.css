@@ -1,0 +1,42 @@
+:root {
+	--brand-primary: #FF80AB;
+}
+
+body {
+	background-color: #efefef;
+	font-family: "Helvetica";
+	margin: 0pt;
+}
+a {
+	color: var(--brand-primary);
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+.container {
+
+	margin-left: 15%;
+	margin-right: 15%;
+}
+section {
+	background-color: white;
+	padding: 13pt;
+	margin-bottom: 15pt;
+	box-shadow: 0pt 0pt 15pt rgba(0, 0, 0, .1);
+	border-radius: 15pt;
+}
+header {
+	background-color: black;
+	padding: 20pt;
+	color: white;
+}
+header a {
+	color: white;
+}
+.blue {
+	color:#2196F3;
+}
+.dark-blue {
+	color: #673AB7;
+}
